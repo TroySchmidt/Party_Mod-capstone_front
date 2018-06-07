@@ -1,0 +1,48 @@
+{
+    "user": [
+        {
+            "id": "",
+            "firstName": "",
+            "lastName": "",
+            "userName": "",
+            "email": ""
+        }
+    ],
+    "playlist": [
+        {
+            "id": "",
+            "playListName": "",
+            "like": true,
+            "userid": "",
+            "invitedFriendid": ""
+        }
+    ],
+    "playlistInvitedFriends": [
+        {
+            "id": "",
+            "invitedFriendid": "",
+            "playlistid": ""
+        }
+    ],
+    "invitedFriend": [
+        {
+            "id": "",
+            "friendsid":"",
+            "userid": ""
+        }
+    ],
+    "songs": [
+        {
+            "id": "",
+            "songName": "",
+            "playlistid": ""
+        }
+    ],
+    "playlistSongs": [
+        {
+            "id": "",
+            "playlistid": "",
+            "songsid": ""
+        }
+    ]
+}
