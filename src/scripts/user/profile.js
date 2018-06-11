@@ -1,40 +1,76 @@
 import React, { Component } from 'react';
 import queryString from 'query-string'
+import { fetchAPI, getToken } from '../utils/api'
+import Playlist from '../homepage/playlist'
+import { Button } from 'reactstrap';
+
 
 
 export default class Profile extends Component {
-    constructor() {
-        super()
-        this.state = {
-          userData: {}
+    state = {
+        loggedOut: false,
+        userData: {
+            user:""
+        },
+        tracks: ""
+      }
+      componentDidMount(){
+        if (!getToken()) {
+          this.setState({loggedOut: true})
         }
-    }
-        componentDidMount(){
-            let parsed = queryString.parse(window.location.search)
-            let accessToken = parsed.access_token
+        fetchAPI('me')
+        .then(data => this.setState({userData: {
+          user: {
+            name: data.display_name,
 
-            fetch('https://api.spotify.com/v1/me', {
-                headers: {'Authorization': 'Bearer ' + accessToken}
-                }).then(response => response.json())
-                .then(data => this.setState({userData: {
-                    user: {
-                    name: data.display_name,
-                    }
-                }
-            }))
+          }
         }
+      }))
+      fetchAPI('me/playlists')
+    .then(playlists => this.setState({playlists}))
+
+    fetchAPI('me/playlists/5e4glb5IyVRXkLzPkZGBWZ')
+    .then(tracks => this.setState({tracks}))
+  }
 
     render() {
+        let content = <div>
+                    <h1> Welcome to Party Mod! Please Sign in! </h1> <Button onClick={() => window.location = 'http://localhost:8888/login'}>Sign in</Button>
+        </div>;
+        if (!this.state.loggedOut) {
+            //and if there isn't userdata
+            if (!this.state.userData.user) {
+              content = <div>Loading</div>
+            } else {
+              //if there is userdata and loggedOut=false
+              let playlistContent = <div>Loading playlists</div>
+              if (this.state.playlists) {
+                //looping through the playlist and grabbing the images to diplay also has the Playlist return in it
+                playlistContent = this.state.playlists.items.map(playlist => {
+                  let playlistImage;
+                  //just grabbing te first image to display at the start of the images array
+                  if (playlist.images && playlist.images.length > 0) {
+                    playlistImage = playlist.images[0].url
+                  }
+                  return <Playlist title={playlist.name} image={playlistImage}  key={playlist.id} />
+                })
+              }
+              content = <div className="App">
+                    <h1>{this.state.userData.user.name} </h1>
+                    <img style={{width: 150, height: 150}} src={require("/Users/jake/workspace/capstone_front/partymod/src/imgs/frontend_tempt_pic.png")} alt="Temppic"/>
+                    <p>Steve Holt! I'm afraid I just blue myself. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no       secrets to hide. Well, what do you expect, mother?
+                    </p>
+                    <h2>
+                        {playlistContent.length} playlists
+                    </h2>
+                    <section>{playlistContent}</section>
+                </div>
+            }
+        }
+
         return(
             <div className="App">
-                <h1>UserName</h1>
-                <img style={{width: 150, height: 150}} src={require("/Users/jake/workspace/capstone_front/partymod/src/imgs/frontend_tempt_pic.png")} alt="Temptpic"/>
-                <p>Steve Holt! I'm afraid I just blue myself. No, I did not kill        Kitty. However, I am going to oblige and answer the nice           officer's questions because I am an honest man with no             secrets to hide. Well, what do you expect, mother?
-                </p>
-                <p>
-                    # of playlists
-                </p>
-                <p></p>
+                {content}
             </div>
         )
     }

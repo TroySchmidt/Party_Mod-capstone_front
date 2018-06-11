@@ -5,7 +5,7 @@ export default class PlaylistBtn extends Component {
     render() {
         return(
             <div>
-                <Button className="createPlBtn">Create Playlist + </Button>
+                <Button href="/CreatePlaylist/" className="createPlBtn">Create Playlist + </Button>
             </div>
         )
     }

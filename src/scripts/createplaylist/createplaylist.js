@@ -3,19 +3,7 @@ import { Button } from 'reactstrap';
 import queryString from 'query-string'
 
 
-
 export default class CreatePlaylist extends Component {
-
-    componentDidMount(){
-        let parsed = queryString.parse(window.location.search)
-        let accessToken = parsed.access_token
-
-        fetch('https://api.spotify.com/v1/search?q=tania%20bowra&type=artist', {
-            headers: {'Authorization': 'Bearer ' + accessToken}
-            }).then(response => response.json())}
-
-
-
 
     render() {
         return(
