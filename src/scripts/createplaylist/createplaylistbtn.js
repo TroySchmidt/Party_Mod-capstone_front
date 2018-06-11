@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import { Button } from 'reactstrap';
 
 export default class PlaylistBtn extends Component {
     render() {
         return(
             <div>
-                <button className="createPlBtn">Create Playlist + </button>
+                <Button className="createPlBtn">Create Playlist + </Button>
             </div>
         )
     }
