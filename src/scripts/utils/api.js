@@ -1,5 +1,8 @@
 import queryString from 'query-string'
 
+export const onTextChange = () =>
+{text => this.setState({filterString: text})}
+
 export const saveToken = () =>{
     let parsed = queryString.parse(window.location.search)
     let accessToken = parsed.access_token
@@ -9,7 +12,6 @@ export const saveToken = () =>{
 
 export const getToken = () => {
   const accessToken = sessionStorage.getItem('token')
-
   return accessToken ? accessToken : saveToken()
 }
 
