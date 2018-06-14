@@ -1,17 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import {
-    Collapse,
     Navbar,
-    NavbarToggler,
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
+    NavLink
+        } from 'reactstrap';
 
 export default class NavBar extends Component {
     render() {
@@ -29,7 +23,8 @@ export default class NavBar extends Component {
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href="/" className="text-danger">Logout</NavLink>
+                                <NavLink href="https://accounts.spotify.com/en/logout"
+                                className="text-danger">Logout</NavLink>
                             </NavItem>
 
                         </Nav>

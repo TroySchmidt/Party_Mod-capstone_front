@@ -1,7 +1,5 @@
 import queryString from 'query-string'
 
-export const onTextChange = () =>
-{text => this.setState({filterString: text})}
 
 export const saveToken = () =>{
     let parsed = queryString.parse(window.location.search)
