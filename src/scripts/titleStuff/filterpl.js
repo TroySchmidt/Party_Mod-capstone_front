@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { fetchAPI, getToken, onTextChange } from '../utils/api'
+
 
 
 export default class Filterpl extends Component {

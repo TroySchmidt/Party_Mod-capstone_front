@@ -4,9 +4,6 @@ import Title from './scripts/titleStuff/title'
 import PlaylistBtn from './scripts/createplaylist/createplaylistbtn'
 import Filterpl from './scripts/titleStuff/filterpl'
 import Playlist from './scripts/homepage/playlist'
-import NavBar from './scripts/navBar/nav'
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Profile from './scripts/user/profile';
 import { Button } from 'reactstrap';
 import { fetchAPI, getToken } from './scripts/utils/api'
 
@@ -15,19 +12,21 @@ class App extends Component {
     loggedOut: false,
     userData: {},
     playlists: null,
-    filterString: ""
+    filterString: "",
+    tracklist: []
   }
   componentDidMount(){
     //checking to see if the token is in session storage. If it is not then the user must be logged out
     if (!getToken()) {
       this.setState({loggedOut: true})
     }
+
     //in the utils folder the fetchAPI() is just shorting the fetch call.
     fetchAPI('me')
     .then(data => this.setState({userData: {
       user: {
         name: data.display_name,
-
+        image: data.images[0].url
       }
     }
   }))
@@ -35,7 +34,9 @@ class App extends Component {
     fetchAPI('me/playlists')
     .then(playlists => this.setState({playlists}))
 
+
   }
+
   render() {
 
     let content = <div>
@@ -51,25 +52,27 @@ class App extends Component {
         //if there is userdata and loggedOut=false
         let playlistContent = <div>Loading playlists</div>
         if (this.state.playlists) {
-          //looping through the playlist and grabbing the images to diplay
+          //looping through the playlist and adding the filter fun to it so user can search playlists
           playlistContent = this.state.playlists.items.filter(
             playlist => playlist.name.toLowerCase()
-            .includes(this.state.filterString.toLocaleLowerCase())
+            .includes(this.state.filterString.toLowerCase())
             ).map(playlist => {
             let playlistImage;
             //just grabbing te first image to display at the start of the images array
             if (playlist.images && playlist.images.length > 0) {
               playlistImage = playlist.images[0].url
             }
-            return <Playlist title={playlist.name} image={playlistImage}  key={playlist.id}/>
+            return <Playlist title={playlist.name} image={playlistImage} id={playlist.id} songs={playlist.tracks.name} key={playlist.id}/>
           })
         }
         content = <div>
-        <Title name={this.state.userData.user.name}
+          <Title name={this.state.userData.user.name}
+              profileImage={this.state.userData.user.image}
               numberOfPlaylist={playlistContent}/>
-        <PlaylistBtn/>
-        <Filterpl onTextChange={text => this.setState({filterString: text})}/>
-        {playlistContent}
+
+          <Filterpl onTextChange={text => this.setState({filterString: text})}/>
+          {playlistContent}
+          <PlaylistBtn/>
         </div>;
       }
     }

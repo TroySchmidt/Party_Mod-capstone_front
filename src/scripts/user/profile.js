@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import queryString from 'query-string'
 import { fetchAPI, getToken } from '../utils/api'
 import Playlist from '../homepage/playlist'
 import { Button } from 'reactstrap';
@@ -10,7 +9,8 @@ export default class Profile extends Component {
     state = {
         loggedOut: false,
         userData: {
-            user:""
+            user:"",
+            image:""
         },
         tracks: ""
       }
@@ -22,15 +22,12 @@ export default class Profile extends Component {
         .then(data => this.setState({userData: {
           user: {
             name: data.display_name,
-
+            image: data.images[0].url
           }
         }
       }))
       fetchAPI('me/playlists')
     .then(playlists => this.setState({playlists}))
-
-    fetchAPI('me/playlists/5e4glb5IyVRXkLzPkZGBWZ')
-    .then(tracks => this.setState({tracks}))
   }
 
     render() {
@@ -52,16 +49,16 @@ export default class Profile extends Component {
                   if (playlist.images && playlist.images.length > 0) {
                     playlistImage = playlist.images[0].url
                   }
-                  return <Playlist title={playlist.name} image={playlistImage}  key={playlist.id} />
+                  return <Playlist title={playlist.name} image={playlistImage} id={playlist.id}  key={playlist.id} />
                 })
               }
               content = <div className="App">
                     <h1>{this.state.userData.user.name} </h1>
-                    <img style={{width: 150, height: 150}} src={require("/Users/jake/workspace/capstone_front/partymod/src/imgs/frontend_tempt_pic.png")} alt="Temppic"/>
+                    <img style={{width: 150, height: 150}} src={this.state.userData.user.image} alt="Temppic"/>
                     <p>Steve Holt! I'm afraid I just blue myself. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no       secrets to hide. Well, what do you expect, mother?
                     </p>
                     <h2>
-                        {playlistContent.length} playlists
+                        {playlistContent.length} Playlists
                     </h2>
                     <section>{playlistContent}</section>
                 </div>
