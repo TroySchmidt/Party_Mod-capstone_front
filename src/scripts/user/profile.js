@@ -55,10 +55,10 @@ export default class Profile extends Component {
               content = <div className="App">
                     <h1>{this.state.userData.user.name} </h1>
                     <img style={{width: 150, height: 150}} src={this.state.userData.user.image} alt="Temppic"/>
-                    <p>Steve Holt! I'm afraid I just blue myself. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no       secrets to hide. Well, what do you expect, mother?
+                    <p>I am orginally form KY.  I left that one horse town to start my life as an underwater DJ. I like to Party!
                     </p>
                     <h2>
-                        {playlistContent.length} Playlists
+                        I currently have {playlistContent.length} Playlists
                     </h2>
                     <section>{playlistContent}</section>
                 </div>

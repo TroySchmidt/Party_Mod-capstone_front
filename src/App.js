@@ -5,7 +5,7 @@ import PlaylistBtn from './scripts/createplaylist/createplaylistbtn'
 import Filterpl from './scripts/titleStuff/filterpl'
 import Playlist from './scripts/homepage/playlist'
 import { Button } from 'reactstrap';
-import { fetchAPI, getToken } from './scripts/utils/api'
+import { fetchAPI, getToken, saveUser } from './scripts/utils/api'
 
 class App extends Component {
   state = {
@@ -23,19 +23,21 @@ class App extends Component {
 
     //in the utils folder the fetchAPI() is just shorting the fetch call.
     fetchAPI('me')
-    .then(data => this.setState({userData: {
-      user: {
-        name: data.display_name,
-        image: data.images[0].url
-      }
+    .then(data => this.setState({
+      userData: {
+        user: {
+          name: data.display_name,
+          image: data.images[0].url,
+          email: data.email
+        }
     }
   }))
 
+
     fetchAPI('me/playlists')
     .then(playlists => this.setState({playlists}))
-
-
   }
+
 
   render() {
 
@@ -72,7 +74,7 @@ class App extends Component {
 
           <Filterpl onTextChange={text => this.setState({filterString: text})}/>
           {playlistContent}
-          <PlaylistBtn/>
+
         </div>;
       }
     }
