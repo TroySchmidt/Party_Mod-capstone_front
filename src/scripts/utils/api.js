@@ -31,3 +31,21 @@ export const fetchAPI = (urlToFetch) => fetch(
     console.log('Fetched URL: ' + urlToFetch, data)
     return data
 })
+
+export const like = () => {
+    alert('Liked!')
+}
+
+export const saveUser = () => fetch("http://localhost:3000/user", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+        displayName: this.state.userData.user.name,
+        image: this.state.userData.user.image,
+        email: this.state.userDara.user.email
+    })
+}).then(() => {
+    return fetch("http://localhost:3000/user")
+}).then(r => r.json())

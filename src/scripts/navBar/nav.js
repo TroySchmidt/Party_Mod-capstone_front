@@ -14,12 +14,12 @@ export default class NavBar extends Component {
                 <Navbar color="dark" light expand="md">
                     <NavbarBrand href="/" className="text-danger">Party Mod</NavbarBrand>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink href="/Profile/" className="text-danger">Profile </NavLink>
-                            </NavItem>
+                            </NavItem> */}
 
                             <NavItem>
-                                <NavLink href="/CreatePlaylist/" className="text-danger">Create Playlist</NavLink>
+                                <NavLink href="/CreatePlaylist/" className="text-danger">Playlists</NavLink>
                             </NavItem>
 
                             <NavItem>
