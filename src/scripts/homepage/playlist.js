@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 export default class Playlist extends Component {
 
-
     render() {
         let showPlaylist;
         return(
