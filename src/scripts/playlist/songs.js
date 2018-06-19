@@ -15,7 +15,8 @@ export default class Songs extends Component {
     playlists: [{
       name: "",
       songs: [{name: ""}],
-      imageUrl: ""
+      imageUrl: "",
+
     }],
     filterString: "",
   }
@@ -29,7 +30,8 @@ export default class Songs extends Component {
     fetchAPI('me')
     .then(data => this.setState({userData: {
       user: {
-        name: data.display_name
+        name: data.display_name,
+        id: data.id
       }
     }
   }))
@@ -61,15 +63,37 @@ export default class Songs extends Component {
     })
     return playlistsPromise
   })
-  .then(playlists => this.setState({
+  .then(playlists => {this.setState({
     playlists: playlists.map(item => {
       return {
         name: item.name,
         imageUrl: item.images[0].url,
-        songs: item.trackDatas
+        songs: item.trackDatas,
+        id: item.id
       }
   })
-  }))
+  })
+    //   return fetch(`http://localhost:8088/playlist?id=${this.state.playlists.id}`)
+    // })
+    // .then(r => r.json())
+    //   .then(r => {if(r == ""){
+    //     fetch("http://localhost:8088/playlist",{
+    //       method: "POST",
+    //       headers: {
+    //         "Content-Type": "application/json"
+    //       },
+    //       body: JSON.stringify({
+    //         id: this.state.playlists.id,
+    //         name: this.state.playlists.name,
+    //         like: true,
+    //         userid: this.state.userData.user.id,
+    //         invitedFriendid: ""
+    //       })
+    //     }).then(() => {
+    //       return fetch("http://localhost:8088/playlist")
+    //     }).then(r => r.json())
+    //   }
+  })
   }
 
 playlistSongs = function () {

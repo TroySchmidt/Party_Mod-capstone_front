@@ -4,7 +4,9 @@ import queryString from 'query-string'
 export const saveToken = () =>{
     let parsed = queryString.parse(window.location.search)
     let accessToken = parsed.access_token
-    sessionStorage.setItem('token', accessToken)
+   if(accessToken){
+       sessionStorage.setItem('token', accessToken)
+   }
     return accessToken
 }
 
@@ -36,16 +38,24 @@ export const like = () => {
     alert('Liked!')
 }
 
-export const saveUser = () => fetch("http://localhost:3000/user", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-        displayName: this.state.userData.user.name,
-        image: this.state.userData.user.image,
-        email: this.state.userDara.user.email
-    })
-}).then(() => {
-    return fetch("http://localhost:3000/user")
-}).then(r => r.json())
+export const saveUser = (user) => {
+    return fetch(`http://localhost:8088/user?email=${user.email}`)
+    .then(r => r.json())
+      .then(r => {
+        if(r == "") {
+          fetch("http://localhost:8088/user", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              displayName: user.name,
+              image: user.image,
+              email: user.email
+            })
+          }).then(() => {
+            return fetch ("http://localhost:8088/user")
+          }).then(r => r.json())
+        }
+      })
+}

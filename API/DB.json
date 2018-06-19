@@ -1,48 +1,60 @@
 {
-    "user": [
-        {
-            "id": "",
-            "firstName": "",
-            "lastName": "",
-            "userName": "",
-            "email": ""
-        }
-    ],
-    "playlist": [
-        {
-            "id": "",
-            "playListName": "",
-            "like": true,
-            "userid": "",
-            "invitedFriendid": ""
-        }
-    ],
-    "playlistInvitedFriends": [
-        {
-            "id": "",
-            "invitedFriendid": "",
-            "playlistid": ""
-        }
-    ],
-    "invitedFriend": [
-        {
-            "id": "",
-            "friendsid":"",
-            "userid": ""
-        }
-    ],
-    "songs": [
-        {
-            "id": "",
-            "songName": "",
-            "playlistid": ""
-        }
-    ],
-    "playlistSongs": [
-        {
-            "id": "",
-            "playlistid": "",
-            "songsid": ""
-        }
-    ]
+  "user": [
+    {
+      "id": "",
+      "firstName": "",
+      "lastName": "",
+      "userName": "",
+      "email": ""
+    },
+    {
+      "displayName": "Jake",
+      "image": "https://profile-images.scdn.co/images/userprofile/default/48da95c9c7421f137897d619316e5ba79b424374",
+      "email": "jacobraycarter@hotmail.com",
+      "id": "gH_gbxg"
+    },
+    {
+      "displayName": null,
+      "image": "https://profile-images.scdn.co/images/userprofile/default/c3e9a43cb8a2efc4f83497c2b8cc69b33a98e1f6",
+      "email": "jacobraycarter@gmail.com",
+      "id": "GQZBO_J"
+    }
+  ],
+  "playlist": [
+    {
+      "id": "",
+      "Name": "",
+      "like": true,
+      "userid": "",
+      "invitedFriendid": ""
+    }
+  ],
+  "playlistInvitedFriends": [
+    {
+      "id": "",
+      "invitedFriendid": "",
+      "playlistid": ""
+    }
+  ],
+  "invitedFriend": [
+    {
+      "id": "",
+      "friendsid": "",
+      "userid": ""
+    }
+  ],
+  "songs": [
+    {
+      "id": "",
+      "songName": "",
+      "playlistid": ""
+    }
+  ],
+  "playlistSongs": [
+    {
+      "id": "",
+      "playlistid": "",
+      "songsid": ""
+    }
+  ]
 }
