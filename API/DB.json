@@ -17,7 +17,7 @@
       "displayName": null,
       "image": "https://profile-images.scdn.co/images/userprofile/default/c3e9a43cb8a2efc4f83497c2b8cc69b33a98e1f6",
       "email": "jacobraycarter@gmail.com",
-      "id": "GQZBO_J"
+      "id": "Chdwvdt"
     }
   ],
   "playlist": [
@@ -27,13 +27,62 @@
       "like": true,
       "userid": "",
       "invitedFriendid": ""
+    },
+    {
+      "id": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "name": "Workout",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": ""
+    },
+    {
+      "id": "7o4gJBpWjNz6lYJsDLRCFN",
+      "name": "Halloween 19",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": ""
+    },
+    {
+      "id": "2BzPp37LjjeZQqnx0yc0Ow",
+      "name": "Summer Livin'",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": ""
+    },
+    {
+      "id": "3Wj3AoN8YiZshmPPbGvyzv",
+      "name": "Christmas '53",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": ""
+    },
+    {
+      "id": "106LXYhq8Nhc1WaZmqfekX",
+      "name": "Trash Bash",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": ""
+    },
+    {
+      "id": "5aNZzHT9i5csny6cyNu0EB",
+      "name": "Ronnies' Playlist",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": ""
+    },
+    {
+      "id": "5e4glb5IyVRXkLzPkZGBWZ",
+      "name": "Halloween 18",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": ""
+    },
+    {
+      "id": "3eWYrUnwFnvEO95zHx9NvE",
+      "name": "Halloween 2022",
+      "userid": "jacobraycarter@hotmail.com",
+      "invitedFriendid": ""
     }
   ],
   "playlistInvitedFriends": [
     {
       "id": "",
       "invitedFriendid": "",
-      "playlistid": ""
+      "playlistid": "",
+      "like": true
     }
   ],
   "invitedFriend": [
@@ -48,6 +97,186 @@
       "id": "",
       "songName": "",
       "playlistid": ""
+    },
+    {
+      "id": "5EPMZ6PSwiQ0n33FNiuSgP",
+      "songName": "I Am Not Done (feat. Moxiie)",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "0WKY4nRJgz3GUG7IqkTgUH",
+      "songName": "Beast",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "5dclpFokYTrD629C3SJ3yw",
+      "songName": "Run This",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "2jJdBEsCdQXsW06yesaoPs",
+      "songName": "The Beast Remix",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "4r2HXKY1QjrdT1uPf82maG",
+      "songName": "What I Live For",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "7gc71e0SFEdFoJnKNskWCd",
+      "songName": "Eat The Elephant",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "1O9DWF3578RHMxZg2nLPeM",
+      "songName": "Disillusioned",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "6kHFFUgDXeJhX0jcif2op1",
+      "songName": "The Contrarian",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "44OUZyiPnJc4pOZw4J6pid",
+      "songName": "The Doomed",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "4R5kwDx0ryIMiK2PKqbNVY",
+      "songName": "So Long, And Thanks For All The Fish",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "3sPpTsMNzlyJJx9LLJFT0e",
+      "songName": "TalkTalk",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "1gv7dUAsupITkccwEqkJqM",
+      "songName": "By And Down The River",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "1FEguBjPAhX5Go3nJQVrJy",
+      "songName": "Delicious",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "5R4Ab6YztgNL2rECssnwwQ",
+      "songName": "DLB",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "2PIXt4s3wcT1e7mjgVUHeE",
+      "songName": "Hourglass",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "26aVyDKN3MDAMoyO3VDB3g",
+      "songName": "Feathers",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "17vSdpQJmAskoex4ATpz69",
+      "songName": "Get The Lead Out",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "3354J49VpkbZJho7Ztdzpw",
+      "songName": "Jumper - 1998 Edit",
+      "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "3Uvx1TO0Kg5HgGPk58lHXv",
+      "songName": "How's It Going To Be",
+      "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "42et6fnHCw1HIPSrdPprMl",
+      "songName": "Semi-Charmed Life",
+      "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "1sxUaLi0G2vB7dl4ogtCxH",
+      "songName": "Never Let You Go - 2008 Version",
+      "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "1QKDXegQxJBzSs8ZBNtGbT",
+      "songName": "A GHETTO CHRISTMAS CAROL",
+      "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "5b7OgznPJJr1vHNYGyvxau",
+      "songName": "Fly Me To The Moon",
+      "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "0bYg9bo50gSsH3LtXe2SQn",
+      "songName": "All I Want for Christmas Is You",
+      "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "74VR3AkGPhbYXnxcOYa16x",
+      "songName": "Strangers In The Night",
+      "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "4AnDbdPmFgQnzCxddZnsWY",
+      "songName": "Halloween at Freddy's",
+      "playlistid": "7o4gJBpWjNz6lYJsDLRCFN",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "29VC2kQrNweVAnYkgVHdn5",
+      "songName": "Halloween",
+      "playlistid": "7o4gJBpWjNz6lYJsDLRCFN",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "79Mjfhh393dZdAsTvUFDR6",
+      "songName": "Don't Go Breaking My Heart",
+      "playlistid": "5aNZzHT9i5csny6cyNu0EB",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "5KYy4AxlClkQPWaF1Iat3g",
+      "songName": "Halloween",
+      "playlistid": "5e4glb5IyVRXkLzPkZGBWZ",
+      "user": "jacobraycarter@gmail.com"
+    },
+    {
+      "id": "7gvCwHqyGam90gDzqIP5OM",
+      "songName": "Long Gone",
+      "playlistid": "106LXYhq8Nhc1WaZmqfekX",
+      "user": "jacobraycarter@gmail.com"
     }
   ],
   "playlistSongs": [

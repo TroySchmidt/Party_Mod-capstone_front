@@ -18,9 +18,9 @@ export default class NavBar extends Component {
                                 <NavLink href="/Profile/" className="text-danger">Profile </NavLink>
                             </NavItem> */}
 
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink href="/CreatePlaylist/" className="text-danger">Playlists</NavLink>
-                            </NavItem>
+                            </NavItem> */}
 
                             <NavItem>
                                 <NavLink href="https://accounts.spotify.com/en/logout"

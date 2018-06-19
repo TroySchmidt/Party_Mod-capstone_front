@@ -30,7 +30,7 @@ export default class Dashboard extends Component {
             if (playlist.images && playlist.images.length > 0) {
               playlistImage = playlist.images[0].url
             }
-            return <Playlist title={playlist.name} image={playlistImage} id={playlist.id} songs={playlist.tracks.name} key={playlist.id}/>
+            return <Playlist title={playlist.name} image={playlistImage} id={playlist.id}  key={playlist.id}/>
           })
         }
         content = <div>
