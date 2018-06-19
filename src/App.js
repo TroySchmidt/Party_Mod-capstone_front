@@ -5,7 +5,7 @@ import PlaylistBtn from './scripts/createplaylist/createplaylistbtn'
 import Filterpl from './scripts/titleStuff/filterpl'
 import Playlist from './scripts/homepage/playlist'
 import { Button } from 'reactstrap';
-import { fetchAPI, getToken, saveUser} from './scripts/utils/api'
+import { fetchAPI, getToken, saveUser, savePL} from './scripts/utils/api'
 import LoggedOut from './scripts/homepage/loggedOut'
 import Dashboard from './scripts/homepage/dashboard'
 
@@ -41,10 +41,13 @@ class App extends Component {
         this.setState({
           userData
         });
+        fetchAPI('me/playlists')
+          .then(playlists => {
+            this.setState({playlists})
+            savePL(playlists, userData.user)
+          })
         return saveUser(userData.user)
       })
-      fetchAPI('me/playlists')
-        .then(playlists => this.setState({playlists}))
     }
   }
 
