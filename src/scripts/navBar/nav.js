@@ -1,11 +1,5 @@
 import React, { Component } from "react";
-import {
-    Navbar,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink
-        } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default class NavBar extends Component {
     render() {
@@ -21,6 +15,10 @@ export default class NavBar extends Component {
                             {/* <NavItem>
                                 <NavLink href="/CreatePlaylist/" className="text-danger">Playlists</NavLink>
                             </NavItem> */}
+                            <NavItem>
+                                <NavLink href="/invitedPlaylist/" className="text-danger">Friend's Playlists
+                                </NavLink>
+                            </NavItem>
 
                             <NavItem>
                                 <NavLink href="https://accounts.spotify.com/en/logout"

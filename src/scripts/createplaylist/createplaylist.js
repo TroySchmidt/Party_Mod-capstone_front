@@ -54,7 +54,7 @@ export default class CreatePlaylist extends Component {
             <section style={{display: 'inline-block', padding:'3rem'}} key={results.id}>
 
                 <Card>
-                    <CardImg src={results.album.images[0].url} style={{width: 150, height: 150, marginLeft: 'auto', marginRight: 'auto'}}/>
+                    <CardImg src={results.album.images[0].url} style={{width: 150, height: 150}}/>
                     <CardBody>
                         <CardTitle>Artist:</CardTitle>
                         {results.artists.map(artist =>

@@ -5,6 +5,8 @@ import Filterpl from '../titleStuff/filterpl'
 import Playlist from '../homepage/playlist'
 import { Button } from 'reactstrap';
 import { fetchAPI, getToken} from '../utils/api'
+import '../../styles/playlist.css'
+import InvitedPlaylist from '../playlist/invitedPlaylist';
 
 
 
@@ -34,13 +36,14 @@ export default class Dashboard extends Component {
           })
         }
         content = <div>
-          <Title name={this.props.user.name}
+          <Filterpl onTextChange={text => this.setState({filterString: text})}/>
+          <Title name={this.props.user.name ? this.props.user.name: 'Party Goer!'}
               profileImage={this.props.user.image}
               numberOfPlaylist={playlistContent}/>
 
-          <Filterpl onTextChange={text => this.setState({filterString: text})}/>
-          {playlistContent}
-
+          <div className='playlistWrapper'>{playlistContent}</div>
+          {/* <h3>Friend's Shared Playlists</h3> */}
+          {/* <InvitedPlaylist/> */}
         </div>;
       }
       return content

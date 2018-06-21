@@ -1,0 +1,23 @@
+.songList1{
+    padding: 0 2rem
+}
+.songListItem1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: .75rem 0;
+    margin: .25rem 0;
+    border-bottom: .025rem solid gray;
+    text-align: left;
+}
+
+.songListItem1 span{
+    flex:2 0 auto;
+}
+
+.songListItem1 button{
+    flex: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 .5rem
+}

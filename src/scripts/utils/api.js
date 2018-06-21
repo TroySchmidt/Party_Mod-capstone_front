@@ -75,7 +75,8 @@ export const savePL = (playlists, user) => {
                             id: playlist.id,
                             name: playlist.name,
                             userid: user.email,
-                            invitedFriendid: ""
+                            invitedFriendid: "",
+                            image: playlist.images[0].url
                         })
                     })
                         .then(() => fetch("http://localhost:8088/playlist"))
@@ -100,9 +101,37 @@ export const saveSongs = (song, playlist, user) => {
                     id: song.id,
                     songName: song.name,
                     playlistid: song.playlistid,
-                    user: user.email
+                    user: user.email,
+                    playlistName: playlist.name,
+                    image: song.image,
+                    artist: song.artist
                 })
             })
         }
     })
 }
+
+export const inviteFriendtoPL = (playlist, currentUser, invitedFriend) => {
+    fetch(`http://localhost:8088/playlistInvitedFriends?playlistid=${playlist}&invitedFriendid=${invitedFriend}`)
+    .then(r => r.json())
+    .then(r => {
+        if(r == ""){
+            return fetch("http://localhost:8088/playlistInvitedFriends", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                invitedFriendid: invitedFriend,
+                playlistid: playlist,
+                invitingUser: currentUser,
+            })
+            })
+        }
+    })
+}
+
+
+
+
+

@@ -10,6 +10,9 @@ import registerServiceWorker from './registerServiceWorker';
 import CreatePlaylist from './scripts/createplaylist/createplaylist';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CurrentPL from './scripts/homepage/currentPL';
+import InvitedPlaylist from './scripts/playlist/invitedPlaylist';
+import SharedPlaylist from './scripts/playlist/sharedPL';
+import SharedPLSongs from './scripts/playlist/sharedPLSongs';
 
 ReactDOM.render((
     <Router>
@@ -18,7 +21,9 @@ ReactDOM.render((
                 <Route exact path="/" component={App}/>
                 <Route exact path="/Profile" component={Profile}/>
                 <Route exact path="/CreatePlaylist" component={CreatePlaylist}/>
-                <Route exact path="/:uri" component={CurrentPL} />
+                <Route exact path="/InvitedPlaylist" component={InvitedPlaylist}/>
+                <Route exact path="/current/:uri" component={CurrentPL}/>
+                <Route exact path="/shared/:uri" component={SharedPLSongs}/>
         </div>
      </Router>
 ), document.getElementById('root'));
