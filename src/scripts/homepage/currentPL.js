@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { fetchAPI,saveSongs } from '../utils/api'
+import { fetchAPI, saveSongs } from '../utils/api'
 import { Button } from 'reactstrap';
-
+import SearchUser from '../utils/searchUser'
+import '../../styles/current.css'
 
 export default class CurrentPL extends Component {
     state = {
         user: {},
-        currentPlaylist: []
+        currentPlaylist: [],
+        playlist: [{
+            name: ""
+        }]
     }
-
     componentDidMount() {
 
         fetchAPI('me')
@@ -23,7 +26,7 @@ export default class CurrentPL extends Component {
                 this.setState({
                     user
                 });
-                fetchAPI(`users/${this.state.user.id}/playlists${window.location.pathname}/tracks`)
+                fetchAPI(`users/${this.state.user.id}/playlists/${window.location.pathname.split('/current/')[1]}/tracks`)
                     .then(playlistData => {
                         let playlist = playlistData.items
                         this.setState({
@@ -32,26 +35,45 @@ export default class CurrentPL extends Component {
                                     name: playlist.track.name,
                                     id: playlist.track.id,
                                     image: playlist.track.album.images[0].url,
-                                    playlistid: window.location.pathname.split('/')[1]
+                                    playlistid: window.location.pathname.split('/current/')[1],
+                                    artist: playlist.track.artists[0].name
                                 }
                             })
                         })
 
                     })
             })
+            fetch(`http://localhost:8088/playlist?id=${window.location.pathname.split('/current/')[1]}`)
+            .then(r => r.json())
+            .then(playlist =>
+                this.setState({
+                    playlist: playlist
+                }))
     }
 
+
     render() {
-        console.log(this.state)
+        console.log('The State', this.state)
         return(
         <div>
-            <ul style={{ 'list-style': 'none' }}>
+            <section className="searchInput">
+                <h5>Share Playlist</h5>
+                <SearchUser  playlistid={window.location.pathname.split('/current/')[1]} user={this.state.user.email}/>
+            </section>
+            <h3>{this.state.playlist[0].name}</h3>
+            <ul style={{ 'list-style': 'none' }} className='songList'>
                 {this.state.currentPlaylist.map(song =>
-                <li id={song.id}>
-                    {song.name}
-                    {saveSongs(song, this.state.currentPlaylist, this.state.user)}
-                        <Button outline color="success" size="sm" onClick={() => alert('Liked!')} >Like</Button>
-                        <Button outline color="danger" size="sm" onClick={() => alert('Disliked!')}>Dislike</Button>
+                <li id={song.id} className="songListItem">
+                <img style={{width: 150, height: 150}} src={song.image} alt="PlayList"/>
+                    <span>
+                        <ul>
+                            <li> {song.name} </li>
+                            <li> {song.artist} </li>
+                        </ul>
+                    </span>
+                    {saveSongs(song, this.state.playlist[0], this.state.user)}
+                        <Button outline color="success" size="sm" onClick={() => alert('Keeping this tune!')} >Keep</Button>
+                        <Button outline color="danger" size="sm" onClick={() => alert('I did not like that song anyways')}>Discard</Button>
                 </li>)}
             </ul>
         </div>

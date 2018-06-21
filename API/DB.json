@@ -14,7 +14,7 @@
       "id": "gH_gbxg"
     },
     {
-      "displayName": null,
+      "displayName": "Jake Carter",
       "image": "https://profile-images.scdn.co/images/userprofile/default/c3e9a43cb8a2efc4f83497c2b8cc69b33a98e1f6",
       "email": "jacobraycarter@gmail.com",
       "id": "Chdwvdt"
@@ -32,57 +32,121 @@
       "id": "0mEM0nJNxPvMOQtrbNOtYQ",
       "name": "Workout",
       "userid": "jacobraycarter@gmail.com",
-      "invitedFriendid": ""
-    },
-    {
-      "id": "7o4gJBpWjNz6lYJsDLRCFN",
-      "name": "Halloween 19",
-      "userid": "jacobraycarter@gmail.com",
-      "invitedFriendid": ""
+      "invitedFriendid": "",
+      "image": "https://i.scdn.co/image/3a498a032b1a11b15979a404c6e6d7ea628e8fa3"
     },
     {
       "id": "2BzPp37LjjeZQqnx0yc0Ow",
       "name": "Summer Livin'",
       "userid": "jacobraycarter@gmail.com",
-      "invitedFriendid": ""
+      "invitedFriendid": "",
+      "image": "https://i.scdn.co/image/53e089d368f4ffe69ac66ef7acd03cf273db9f23"
     },
     {
       "id": "3Wj3AoN8YiZshmPPbGvyzv",
       "name": "Christmas '53",
       "userid": "jacobraycarter@gmail.com",
-      "invitedFriendid": ""
+      "invitedFriendid": "",
+      "image": "https://mosaic.scdn.co/640/4ce9e86492ee4737b510d930e348a3444965e258704398af442911033dd3e144b9acac28ed6e59cda08cbc9ad17132caec9d412bc1bd6c3eaafe677ee06f3ddadf59ee24504fc02bfe205945807a2437"
     },
     {
-      "id": "106LXYhq8Nhc1WaZmqfekX",
-      "name": "Trash Bash",
+      "id": "7o4gJBpWjNz6lYJsDLRCFN",
+      "name": "Halloween 19",
       "userid": "jacobraycarter@gmail.com",
-      "invitedFriendid": ""
+      "invitedFriendid": "",
+      "image": "https://i.scdn.co/image/8b4dd7e04ae69c84a4dff5cf02499ffa43019836"
     },
     {
       "id": "5aNZzHT9i5csny6cyNu0EB",
       "name": "Ronnies' Playlist",
       "userid": "jacobraycarter@gmail.com",
-      "invitedFriendid": ""
+      "invitedFriendid": "",
+      "image": "https://i.scdn.co/image/96b01d8776d69263116edbb58cf185ac60070f69"
+    },
+    {
+      "id": "106LXYhq8Nhc1WaZmqfekX",
+      "name": "Trash Bash",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": "",
+      "image": "https://i.scdn.co/image/d4039a61c4695edcbd587b9268d51e72a991fd9f"
+    },
+    {
+      "id": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "name": "Joe Rogan Exprience",
+      "userid": "jacobraycarter@gmail.com",
+      "invitedFriendid": "",
+      "image": "https://pl.scdn.co/images/pl/default/a185178b9db707d843d5355b3dc4a73fc8e966ae"
     },
     {
       "id": "5e4glb5IyVRXkLzPkZGBWZ",
       "name": "Halloween 18",
       "userid": "jacobraycarter@gmail.com",
-      "invitedFriendid": ""
+      "invitedFriendid": "",
+      "image": "https://i.scdn.co/image/2ab6430b24a09f46605a7ee0d3737ce1a0d0c509"
     },
     {
       "id": "3eWYrUnwFnvEO95zHx9NvE",
       "name": "Halloween 2022",
       "userid": "jacobraycarter@hotmail.com",
-      "invitedFriendid": ""
+      "invitedFriendid": "",
+      "image": "https://mosaic.scdn.co/640/3c294000d8739af300d9a842934d6f7e090471c758bba074086c71494d602e144432a83aae17e2be648c13120a167b1827584679477ec5735298826dfb15ae186760acd9b4bddbf9beb2176ada74d4c6"
+    },
+    {
+      "id": "6mSMwiSomBdu8gWos9IJVi",
+      "name": "America's Birthday",
+      "userid": "jacobraycarter@hotmail.com",
+      "invitedFriendid": "",
+      "image": "https://mosaic.scdn.co/640/0b935a5633e56121da33cdda64440663aaf4b331774540fe8aee7590668974ca105475805d410e8ac475548f4c1ffbe3566bd48b326261a1592a1c90f9d68d6d41ac1b7cd2958a83682af418e372d531"
+    },
+    {
+      "id": "4ktduHk4f2DfEpojXNYQ7f",
+      "name": "Summer Time is Here",
+      "userid": "jacobraycarter@hotmail.com",
+      "invitedFriendid": "",
+      "image": "https://mosaic.scdn.co/640/1ec11d65250e4b38ea7f5d90870d2c9bd6d130749ede9989a7f3ad2dd4825167c345c8ae45e5a13fae33d84ad5b1b47f5c7b73c63ca0f1fd4d131b84e74d380979de87a3a100b3f13ed5da7f40c1dff3"
     }
   ],
   "playlistInvitedFriends": [
     {
       "id": "",
       "invitedFriendid": "",
-      "playlistid": "",
-      "like": true
+      "playlistid": ""
+    },
+    {
+      "invitedFriendid": "jacobraycarter@gmail.com",
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "invitingUser": "jacobraycarter@hotmail.com",
+      "id": "UY8r4vL"
+    },
+    {
+      "invitedFriendid": "jacobraycarter@hotmail.com",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "invitingUser": "jacobraycarter@gmail.com",
+      "id": "tnRjZ4U"
+    },
+    {
+      "invitedFriendid": "jacobraycarter@hotmail.com",
+      "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
+      "invitingUser": "jacobraycarter@gmail.com",
+      "id": "G5kDNpT"
+    },
+    {
+      "invitedFriendid": "jacobraycarter@hotmail.com",
+      "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
+      "invitingUser": "jacobraycarter@gmail.com",
+      "id": "ZKSx5Ec"
+    },
+    {
+      "invitedFriendid": "jacobraycarter@hotmail.com",
+      "playlistid": "7o4gJBpWjNz6lYJsDLRCFN",
+      "invitingUser": "jacobraycarter@gmail.com",
+      "id": "echgx0P"
+    },
+    {
+      "invitedFriendid": "jacobraycarter@hotmail.com",
+      "playlistid": "106LXYhq8Nhc1WaZmqfekX",
+      "invitingUser": "jacobraycarter@gmail.com",
+      "id": "fOfGX5d"
     }
   ],
   "invitedFriend": [
@@ -102,188 +166,559 @@
       "id": "5EPMZ6PSwiQ0n33FNiuSgP",
       "songName": "I Am Not Done (feat. Moxiie)",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/3a498a032b1a11b15979a404c6e6d7ea628e8fa3",
+      "artist": "Rob Bailey & The Hustle Standard"
     },
     {
       "id": "0WKY4nRJgz3GUG7IqkTgUH",
       "songName": "Beast",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/3a498a032b1a11b15979a404c6e6d7ea628e8fa3",
+      "artist": "Rob Bailey & The Hustle Standard"
     },
     {
       "id": "5dclpFokYTrD629C3SJ3yw",
       "songName": "Run This",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
-    },
-    {
-      "id": "2jJdBEsCdQXsW06yesaoPs",
-      "songName": "The Beast Remix",
-      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/3a498a032b1a11b15979a404c6e6d7ea628e8fa3",
+      "artist": "Rob Bailey & The Hustle Standard"
     },
     {
       "id": "4r2HXKY1QjrdT1uPf82maG",
       "songName": "What I Live For",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/3a498a032b1a11b15979a404c6e6d7ea628e8fa3",
+      "artist": "Rob Bailey & The Hustle Standard"
+    },
+    {
+      "id": "2jJdBEsCdQXsW06yesaoPs",
+      "songName": "The Beast Remix",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/3a498a032b1a11b15979a404c6e6d7ea628e8fa3",
+      "artist": "Rob Bailey & The Hustle Standard"
     },
     {
       "id": "7gc71e0SFEdFoJnKNskWCd",
       "songName": "Eat The Elephant",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
-    },
-    {
-      "id": "1O9DWF3578RHMxZg2nLPeM",
-      "songName": "Disillusioned",
-      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "6kHFFUgDXeJhX0jcif2op1",
       "songName": "The Contrarian",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "44OUZyiPnJc4pOZw4J6pid",
       "songName": "The Doomed",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "4R5kwDx0ryIMiK2PKqbNVY",
       "songName": "So Long, And Thanks For All The Fish",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
+    },
+    {
+      "id": "1O9DWF3578RHMxZg2nLPeM",
+      "songName": "Disillusioned",
+      "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "3sPpTsMNzlyJJx9LLJFT0e",
       "songName": "TalkTalk",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "1gv7dUAsupITkccwEqkJqM",
       "songName": "By And Down The River",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "1FEguBjPAhX5Go3nJQVrJy",
       "songName": "Delicious",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "5R4Ab6YztgNL2rECssnwwQ",
       "songName": "DLB",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "2PIXt4s3wcT1e7mjgVUHeE",
       "songName": "Hourglass",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "26aVyDKN3MDAMoyO3VDB3g",
       "songName": "Feathers",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
     },
     {
       "id": "17vSdpQJmAskoex4ATpz69",
       "songName": "Get The Lead Out",
       "playlistid": "0mEM0nJNxPvMOQtrbNOtYQ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Workout",
+      "image": "https://i.scdn.co/image/5f9d7789c24a46a7cafc24ade634df64336b228a",
+      "artist": "A Perfect Circle"
+    },
+    {
+      "id": "7oK9VyNzrYvRFo7nQEYkWN",
+      "songName": "Mr. Brightside",
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Summer Time is Here",
+      "image": "https://i.scdn.co/image/ae33d84ad5b1b47f5c7b73c63ca0f1fd4d131b84",
+      "artist": "The Killers"
+    },
+    {
+      "id": "14B2bUopOga5V3ypld7d6n",
+      "songName": "Suga Suga",
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Summer Time is Here",
+      "image": "https://i.scdn.co/image/e74d380979de87a3a100b3f13ed5da7f40c1dff3",
+      "artist": "Baby Bash"
+    },
+    {
+      "id": "2hKdd3qO7cWr2Jo0Bcs0MA",
+      "songName": "Drops of Jupiter",
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Summer Time is Here",
+      "image": "https://i.scdn.co/image/1ec11d65250e4b38ea7f5d90870d2c9bd6d13074",
+      "artist": "Train"
+    },
+    {
+      "id": "4KoecuyOpZaNFZ0UqVsllc",
+      "songName": "Follow Me",
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Summer Time is Here",
+      "image": "https://i.scdn.co/image/9ede9989a7f3ad2dd4825167c345c8ae45e5a13f",
+      "artist": "Uncle Kracker"
     },
     {
       "id": "3354J49VpkbZJho7Ztdzpw",
       "songName": "Jumper - 1998 Edit",
       "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Summer Livin'",
+      "image": "https://i.scdn.co/image/53e089d368f4ffe69ac66ef7acd03cf273db9f23",
+      "artist": "Third Eye Blind"
     },
     {
       "id": "3Uvx1TO0Kg5HgGPk58lHXv",
       "songName": "How's It Going To Be",
       "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Summer Livin'",
+      "image": "https://i.scdn.co/image/53e089d368f4ffe69ac66ef7acd03cf273db9f23",
+      "artist": "Third Eye Blind"
     },
     {
       "id": "42et6fnHCw1HIPSrdPprMl",
       "songName": "Semi-Charmed Life",
       "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Summer Livin'",
+      "image": "https://i.scdn.co/image/53e089d368f4ffe69ac66ef7acd03cf273db9f23",
+      "artist": "Third Eye Blind"
     },
     {
       "id": "1sxUaLi0G2vB7dl4ogtCxH",
       "songName": "Never Let You Go - 2008 Version",
       "playlistid": "2BzPp37LjjeZQqnx0yc0Ow",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Summer Livin'",
+      "image": "https://i.scdn.co/image/c1ae1f5a52551d344d27ef7a5bd17c1f7feaf077",
+      "artist": "Third Eye Blind"
     },
     {
       "id": "1QKDXegQxJBzSs8ZBNtGbT",
       "songName": "A GHETTO CHRISTMAS CAROL",
       "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Christmas '53",
+      "image": "https://i.scdn.co/image/4ce9e86492ee4737b510d930e348a3444965e258",
+      "artist": "XXXTENTACION"
     },
     {
       "id": "5b7OgznPJJr1vHNYGyvxau",
       "songName": "Fly Me To The Moon",
       "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Christmas '53",
+      "image": "https://i.scdn.co/image/704398af442911033dd3e144b9acac28ed6e59cd",
+      "artist": "Frank Sinatra"
     },
     {
       "id": "0bYg9bo50gSsH3LtXe2SQn",
       "songName": "All I Want for Christmas Is You",
       "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Christmas '53",
+      "image": "https://i.scdn.co/image/e06f3ddadf59ee24504fc02bfe205945807a2437",
+      "artist": "Mariah Carey"
     },
     {
       "id": "74VR3AkGPhbYXnxcOYa16x",
       "songName": "Strangers In The Night",
       "playlistid": "3Wj3AoN8YiZshmPPbGvyzv",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Christmas '53",
+      "image": "https://i.scdn.co/image/a08cbc9ad17132caec9d412bc1bd6c3eaafe677e",
+      "artist": "Frank Sinatra"
     },
     {
       "id": "4AnDbdPmFgQnzCxddZnsWY",
       "songName": "Halloween at Freddy's",
       "playlistid": "7o4gJBpWjNz6lYJsDLRCFN",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Halloween 19",
+      "image": "https://i.scdn.co/image/8b4dd7e04ae69c84a4dff5cf02499ffa43019836",
+      "artist": "Tryhardninja"
     },
     {
       "id": "29VC2kQrNweVAnYkgVHdn5",
       "songName": "Halloween",
       "playlistid": "7o4gJBpWjNz6lYJsDLRCFN",
-      "user": "jacobraycarter@gmail.com"
-    },
-    {
-      "id": "79Mjfhh393dZdAsTvUFDR6",
-      "songName": "Don't Go Breaking My Heart",
-      "playlistid": "5aNZzHT9i5csny6cyNu0EB",
-      "user": "jacobraycarter@gmail.com"
-    },
-    {
-      "id": "5KYy4AxlClkQPWaF1Iat3g",
-      "songName": "Halloween",
-      "playlistid": "5e4glb5IyVRXkLzPkZGBWZ",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Halloween 19",
+      "image": "https://i.scdn.co/image/ea8342f74e4e63f6827650c0939ae77429ee10aa",
+      "artist": "Buffering the Vampire Slayer"
     },
     {
       "id": "7gvCwHqyGam90gDzqIP5OM",
       "songName": "Long Gone",
       "playlistid": "106LXYhq8Nhc1WaZmqfekX",
-      "user": "jacobraycarter@gmail.com"
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Trash Bash",
+      "image": "https://i.scdn.co/image/d4039a61c4695edcbd587b9268d51e72a991fd9f",
+      "artist": "The Dead South"
+    },
+    {
+      "id": "05AZpcWobjRftBkZ5eAv5H",
+      "songName": "Listen to the Music",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/7088863f23b4e24e7298a9244d1c4c218305eb78",
+      "artist": "Playing For Change"
+    },
+    {
+      "id": "6bZcBbRiOqMSa0WpQ4NVxp",
+      "songName": "All Along the Watchtower",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/7088863f23b4e24e7298a9244d1c4c218305eb78",
+      "artist": "Playing For Change"
+    },
+    {
+      "id": "4NUc9yYTMQQSKZ8sUAngyW",
+      "songName": "Nirvana the Buffalo",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/7d82fd9f9cfcd248e8003f9175b1f9605e0c8d7c",
+      "artist": "Toubab Krewe"
+    },
+    {
+      "id": "2cSsLHJXzac0NDjYkl8D7j",
+      "songName": "Ripple",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/7088863f23b4e24e7298a9244d1c4c218305eb78",
+      "artist": "Playing For Change"
+    },
+    {
+      "id": "3jS2YRUsl4F1m3ZBwzyyhi",
+      "songName": "Sugar Magnolia - Live at The Olympia Theatre, Paris France 5/4/72 [Remastered]",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/77c6a8192985726ab1e2b65d1eec7c5140ad041d",
+      "artist": "Grateful Dead"
+    },
+    {
+      "id": "6GFw0SDnWscK1OOPy7W4lK",
+      "songName": "Eyes Of The World - Remastered",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/b51d743713f24844e39bcb2700f36b998f802c9e",
+      "artist": "Grateful Dead"
+    },
+    {
+      "id": "5HANhrYhQYIqTWeb52TQuU",
+      "songName": "Scarlet Begonias - Remastered",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/b51d743713f24844e39bcb2700f36b998f802c9e",
+      "artist": "Grateful Dead"
+    },
+    {
+      "id": "0SN54LS8oPJ3TCj8SOmOnI",
+      "songName": "Casey Jones - Live At Winterland, San Francisco, CA 10/16-20/74 [Remastered]",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/b51d743713f24844e39bcb2700f36b998f802c9e",
+      "artist": "Grateful Dead"
+    },
+    {
+      "id": "5vkQ1e8jTOJG1dluPG7R06",
+      "songName": "Wasting Time",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/c1bbfb74bed02b90c82dab8b084579b2ec9cedf3",
+      "artist": "ALO"
+    },
+    {
+      "id": "2SeENh2LRR9t2xJSfXwtUX",
+      "songName": "75 and Sunny",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/dbbeb9d185d1d2a302ba52a96a555b9739ddd81b",
+      "artist": "Ryan Montbleau"
+    },
+    {
+      "id": "7fRN3zdAkbMSB4fjk2YaD6",
+      "songName": "Keep On Growing - Remixed Version",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/6b01fbb803372c5eac0ec833f00530a3daf3bcab",
+      "artist": "Derek & The Dominos"
+    },
+    {
+      "id": "4Pyfmkdx0PsE77KpufP4LR",
+      "songName": "Salut",
+      "playlistid": "1PPq3Tg5O6J1PVB0uqsCgy",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Joe Rogan Exprience",
+      "image": "https://i.scdn.co/image/addde83c5d63fc8569bb3f2f595a62024d6e01a8",
+      "artist": "Toubab Krewe"
+    },
+    {
+      "id": "3S2R0EVwBSAVMd5UMgKTL0",
+      "songName": "Thriller",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/3c294000d8739af300d9a842934d6f7e090471c7",
+      "artist": "Michael Jackson"
+    },
+    {
+      "id": "6GmL39a9OazWtyMkAbJz7v",
+      "songName": "Monster Mash",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/58bba074086c71494d602e144432a83aae17e2be",
+      "artist": "Bobby \"Boris\" Pickett"
+    },
+    {
+      "id": "4WFeJTXNHIS2wURtwlAkhu",
+      "songName": "Time Warp",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/648c13120a167b1827584679477ec5735298826d",
+      "artist": "Little Nell"
+    },
+    {
+      "id": "6kotXaSQaGYxE62hVpdHWu",
+      "songName": "Werewolves Of London - 2007 Remastered Version",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/fb15ae186760acd9b4bddbf9beb2176ada74d4c6",
+      "artist": "Warren Zevon"
+    },
+    {
+      "id": "2aRjuScpka878tUWOsLYpQ",
+      "songName": "A Nightmare On My Street",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/8f922bcabe532814deaf7f9d384dc64fe0833d3e",
+      "artist": "DJ Jazzy Jeff & The Fresh Prince"
+    },
+    {
+      "id": "1i6N76fftMZhijOzFQ5ZtL",
+      "songName": "Psycho Killer - 2005 Remastered Version",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/fd1612e7ec4758f79d86ee08de6c983e191190ab",
+      "artist": "Talking Heads"
+    },
+    {
+      "id": "5QTxFnGygVM4jFQiBovmRo",
+      "songName": "(Don't Fear) The Reaper",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/6bd4450a8fbf30702a92f1c825377f1933ded249",
+      "artist": "Blue Öyster Cult"
+    },
+    {
+      "id": "6A4Jc8npNo79BOgsrPptLA",
+      "songName": "Somebody's Watching Me - Single Version",
+      "playlistid": "3eWYrUnwFnvEO95zHx9NvE",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "Halloween 2022",
+      "image": "https://i.scdn.co/image/afc94d1d4b72d8c2d81660131e53f36ea92affda",
+      "artist": "Rockwell"
+    },
+    {
+      "id": "6Knv6wdA0luoMUuuoYi2i1",
+      "songName": "My House",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/c475548f4c1ffbe3566bd48b326261a1592a1c90",
+      "artist": "Flo Rida"
+    },
+    {
+      "id": "6bN6XXylz4unPfOCBIg0z5",
+      "songName": "Kokaina",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/f9d68d6d41ac1b7cd2958a83682af418e372d531",
+      "artist": "Miami Yacine"
+    },
+    {
+      "id": "0k2GOhqsrxDTAbFFSdNJjT",
+      "songName": "Temperature",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/774540fe8aee7590668974ca105475805d410e8a",
+      "artist": "Sean Paul"
+    },
+    {
+      "id": "1xBqk0cath1OTSDJDHzzzA",
+      "songName": "Oh Baby - Originaltitel: Heaven Is a Place On Earth",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/0b935a5633e56121da33cdda64440663aaf4b331",
+      "artist": "Mia Julia"
+    },
+    {
+      "id": "6C7RJEIUDqKkJRZVWdkfkH",
+      "songName": "Stronger",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/01bb4663dcfa3b8b4fd405ef493dfe447805aa57",
+      "artist": "Kanye West"
+    },
+    {
+      "id": "2PpruBYCo4H7WOBJ7Q2EwM",
+      "songName": "Hey Ya! - Radio Mix / Club Mix",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/c1e2622aa7237803bde47e0174b1ff65af143ff8",
+      "artist": "OutKast"
+    },
+    {
+      "id": "3OSjGvo7Cv04JTfZaXnZaL",
+      "songName": "Fotzen im Club",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/e09eace739697882a96541b013e44721d32bc8e2",
+      "artist": "SXTN"
+    },
+    {
+      "id": "6kex4EBAj0WHXDKZMEJaaF",
+      "songName": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)",
+      "playlistid": "6mSMwiSomBdu8gWos9IJVi",
+      "user": "jacobraycarter@hotmail.com",
+      "playlistName": "America's Birthday",
+      "image": "https://i.scdn.co/image/87d0b1856d2c2ce55fdb4c8129e47a6df6f33aff",
+      "artist": "Jason Derulo"
+    },
+    {
+      "id": "5KYy4AxlClkQPWaF1Iat3g",
+      "songName": "Halloween",
+      "playlistid": "5e4glb5IyVRXkLzPkZGBWZ",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Halloween 18",
+      "image": "https://i.scdn.co/image/2ab6430b24a09f46605a7ee0d3737ce1a0d0c509",
+      "artist": "Kodak Black"
     }
   ],
   "playlistSongs": [
     {
       "id": "",
       "playlistid": "",
-      "songsid": ""
+      "songsid": "",
+      "invitedFriendid": "",
+      "like": true
     }
   ]
 }
