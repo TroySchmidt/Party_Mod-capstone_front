@@ -131,6 +131,58 @@ export const inviteFriendtoPL = (playlist, currentUser, invitedFriend) => {
     })
 }
 
+export const likedSong = (playlistid, songsid, invitedFriendid) => {
+    fetch(`http://localhost:8088/playlistSongs?playlistid=${playlistid}&songsid=${songsid}&invitedFriendid=${invitedFriendid}`)
+    .then(r => r.json())
+    .then(r => {
+        if(r == ""){
+            fetch('http://localhost:8088/playlistSongs', {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    playlistid: playlistid,
+                    songsid: songsid,
+                    invitedFriendid: invitedFriendid,
+                    like: true
+                })
+            })
+        }
+    })
+}
+
+export const dislikeSong = (playlistid, songsid, invitedFriendid) => {
+    fetch(`http://localhost:8088/playlistSongs?playlistid=${playlistid}&songsid=${songsid}&invitedFriendid=${invitedFriendid}`)
+    .then(r => r.json())
+    .then(r => {
+        if(r == ""){
+            fetch('http://localhost:8088/playlistSongs', {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    playlistid: playlistid,
+                    songsid: songsid,
+                    invitedFriendid: invitedFriendid,
+                    like: false
+                })
+            })
+        }else(
+            fetch('http://localhost:8088/playlistSongs', {
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    like: false
+                })
+            })
+        )
+    })
+}
+
 
 
 
