@@ -51,7 +51,8 @@ export const saveUser = (user) => {
                     body: JSON.stringify({
                         displayName: user.name,
                         image: user.image,
-                        email: user.email
+                        email: user.email,
+                        id: user.id
                     })
                 }).then(() => {
                     return fetch("http://localhost:8088/user")
@@ -169,21 +170,23 @@ export const dislikeSong = (playlistid, songsid, invitedFriendid) => {
                     like: false
                 })
             })
-        }else(
-            fetch('http://localhost:8088/playlistSongs', {
-                method: "PUT",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    like: false
-                })
-            })
-        )
+        }
     })
 }
 
+export const add = () => {
+    let counter = 0;
+    {return counter += 1;}
+}
 
+export const addLikes = (songid) => {
+    document.getElementById(songid).innerHTML = add()
+    localStorage.setItem(`${songid}`, 'like')
+}
 
+export const addDislikes = (songid) => {
+    document.getElementById(songid).innerHTML = add()
+    localStorage.setItem(`${songid}`, 'dislike')
+}
 
 

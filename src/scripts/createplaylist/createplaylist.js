@@ -64,7 +64,7 @@ export default class CreatePlaylist extends Component {
                             <CardText>{results.album.name}</CardText>
                         <CardTitle>Song Name:</CardTitle>
                             <CardText>{results.name}</CardText>
-                            <Button className="addToPlaylist">add</Button>
+                            <Button onClick={() => alert('We have passed this suggestion along')}className="addToPlaylist">Suggest</Button>
                     </CardBody>
                 </Card>
             </section>
@@ -72,9 +72,8 @@ export default class CreatePlaylist extends Component {
         }
         return(
             <div className="App">
-                <Songs/>
                 <div className="card" >
-                    <h2>Search For Your Favorite Music!</h2>
+                    <h2>Suggest Your Favorite Music!</h2>
                 <input id='userInput' type="text" style={{width: '25%', marginLeft: 'auto', marginRight: 'auto'}} onKeyPress={this.search} className="searchMusic" placeholder="Search Music"/>
                     <section style={{display: 'inline-block', padding:'3rem'}}>
                         {searchResultSongs}

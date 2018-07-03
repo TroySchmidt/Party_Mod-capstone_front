@@ -31,7 +31,8 @@ class App extends Component {
           user: {
             name: data.display_name,
             image: data.images[0].url,
-            email: data.email
+            email: data.email,
+            id: data.id
           }
         }
         this.setState({
