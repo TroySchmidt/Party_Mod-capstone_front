@@ -8,16 +8,16 @@
       "email": ""
     },
     {
-      "displayName": "Jake",
-      "image": "https://profile-images.scdn.co/images/userprofile/default/48da95c9c7421f137897d619316e5ba79b424374",
-      "email": "jacobraycarter@hotmail.com",
-      "id": "gH_gbxg"
-    },
-    {
       "displayName": "Jake Carter",
       "image": "https://profile-images.scdn.co/images/userprofile/default/c3e9a43cb8a2efc4f83497c2b8cc69b33a98e1f6",
       "email": "jacobraycarter@gmail.com",
-      "id": "Chdwvdt"
+      "id": "226eutepqguqom2353emiftmy"
+    },
+    {
+      "displayName": "Jake",
+      "image": "https://profile-images.scdn.co/images/userprofile/default/48da95c9c7421f137897d619316e5ba79b424374",
+      "email": "jacobraycarter@hotmail.com",
+      "id": "vy1qfnh4l2zd5ntz9h311jt4g"
     }
   ],
   "playlist": [
@@ -147,6 +147,12 @@
       "playlistid": "106LXYhq8Nhc1WaZmqfekX",
       "invitingUser": "jacobraycarter@gmail.com",
       "id": "fOfGX5d"
+    },
+    {
+      "invitedFriendid": "jacobraycarter@hotmail.com",
+      "playlistid": "5e4glb5IyVRXkLzPkZGBWZ",
+      "invitingUser": "jacobraycarter@gmail.com",
+      "id": "mJBOhMu"
     }
   ],
   "invitedFriend": [
@@ -710,6 +716,15 @@
       "playlistName": "Halloween 18",
       "image": "https://i.scdn.co/image/2ab6430b24a09f46605a7ee0d3737ce1a0d0c509",
       "artist": "Kodak Black"
+    },
+    {
+      "id": "79Mjfhh393dZdAsTvUFDR6",
+      "songName": "Don't Go Breaking My Heart",
+      "playlistid": "5aNZzHT9i5csny6cyNu0EB",
+      "user": "jacobraycarter@gmail.com",
+      "playlistName": "Ronnies' Playlist",
+      "image": "https://i.scdn.co/image/96b01d8776d69263116edbb58cf185ac60070f69",
+      "artist": "Backstreet Boys"
     }
   ],
   "playlistSongs": [
@@ -719,6 +734,34 @@
       "songsid": "",
       "invitedFriendid": "",
       "like": true
+    },
+    {
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "songsid": "7oK9VyNzrYvRFo7nQEYkWN",
+      "invitedFriendid": "226eutepqguqom2353emiftmy",
+      "like": true,
+      "id": "Gx1z4t6"
+    },
+    {
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "songsid": "14B2bUopOga5V3ypld7d6n",
+      "invitedFriendid": "226eutepqguqom2353emiftmy",
+      "like": true,
+      "id": "1tousZe"
+    },
+    {
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "songsid": "2hKdd3qO7cWr2Jo0Bcs0MA",
+      "invitedFriendid": "226eutepqguqom2353emiftmy",
+      "like": false,
+      "id": "8K_ZoaL"
+    },
+    {
+      "playlistid": "4ktduHk4f2DfEpojXNYQ7f",
+      "songsid": "4KoecuyOpZaNFZ0UqVsllc",
+      "invitedFriendid": "226eutepqguqom2353emiftmy",
+      "like": false,
+      "id": "OsBbkr2"
     }
   ]
 }
